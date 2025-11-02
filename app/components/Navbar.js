@@ -72,10 +72,9 @@ export default function Navbar( { disappear } ) {
           <NavbarItem name="Join" href="/join"/>
           <NavbarItem name="FAQ" href="/faq"/>
         </ul>
-        
       </div>
     </nav>
-    <div className={`text-xl text-primary-50 fixed top-0 pt-16 flex flex-col right-0 text-right bg-secondary-700/50 ${navOpen ? `right-0` : `-right-1/2`} backdrop-blur-md duration-300 h-[100vh] w-1/2 z-20`}>
+    <div className={`text-xl text-primary-50 fixed top-0 pt-16 flex flex-col text-right bg-secondary-700/50 ${navOpen ? `right-0` : `-right-1/2`} backdrop-blur-md duration-300 h-[100vh] w-1/2 z-20`}>
           <Link className="duration-300 hover:bg-secondary-200/50 py-4 px-6" onClick={() => setAboutOpen(!aboutOpen)} href="/about">About &#9660;</Link>
           {aboutOpen && <div className="bg-secondary-950/50 flex flex-col">
           <Link className="duration-300 hover:bg-secondary-200/50 py-4 px-6" href="/about/lab">Lab Setup</Link>
