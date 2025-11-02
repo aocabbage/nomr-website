@@ -21,8 +21,8 @@ const lato = Lato({
 });
 
 export const metadata = {
-  title: "Andrew Cabbage",
-  description: "A portfolio for Andrew Cabbage",
+  title: "NOMR",
+  description: "A VR project to introduce students to concepts of electromagnetism.",
 };
 
 export default function RootLayout({ children }) {

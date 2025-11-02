@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "express": "^4.21.1",
     "next": "^15.0.2",
     "promise": "^8.3.0",
