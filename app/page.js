@@ -87,7 +87,7 @@ export default function Home() {
         loading="eager"
         style={{ objectPosition : `center ${scrollY / 3}px`}}
       />
-      <div className="relative flex flex-col text-center top-[25vh] z-1 mx-24 space-y-4 text-primary-50">
+      <div className="relative flex flex-col text-center top-[25vh] z-1 mx-[10vw] space-y-4 text-primary-50">
           <Image
           className="mx-auto hover:-rotate-[3deg] duration-300"
           alt="The NOMR logo."

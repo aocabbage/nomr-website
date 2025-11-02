@@ -29,8 +29,8 @@ export default function PageHeader({ title, subtitle }) {
             loading="eager"
             style={{ objectPosition : `center ${scrollY / 3}px`}}
             />
-            <div className="relative flex flex-col text-center top-[20vh] md:top-[25vh] z-1 mx-24 space-y-4 text-primary-50">
-                <p className="text-7xl font-bold">
+            <div className="relative mx-[10vw] flex flex-col text-center top-[20vh] md:top-[25vh] z-1 space-y-4 text-primary-50">
+                <p className="text-5xl md:text-7xl font-bold mx-auto">
                     {title}
                 </p>
                 <p className="italic">

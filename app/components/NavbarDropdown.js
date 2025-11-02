@@ -23,7 +23,7 @@ export default function NavbarDropdown( { name, href, items} ) {
 
   return (
     <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className="relative md:hover:underline hover:bg-primary-50 h-full p-2 mx-1 rounded-md hover:text-secondary-900 duration-300">
-        <Link href={href}>{name}</Link>
+        <Link className="text-nowrap" href={href}>{name}</Link>
         {visible && 
         <div className={`flex flex-col duration-300 space-y-2 absolute p-2 rounded-md ${isHovered ? `bg-primary-50` : `bg-transparent`} ${isHovered ? `text-secondary-900` : `text-transparent`} min-w-24 top-10 shadow-xl border border-secondary-700 right-0`}> 
             <div className="absolute left-0 right-0 -top-2 bottom-full bg-transparent"/>
