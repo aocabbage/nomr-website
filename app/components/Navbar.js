@@ -3,17 +3,18 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from 'next/image'
-import logo from  '../src/Images/NOMR_logo_small.png'
-import menubar from "@/app/src/Images/menubar.png"
 import NavbarItem from "./NavbarItem";
 import NavbarDropdown from "./NavbarDropdown";
-import { BasicLink } from "./WebLink";
+
+import logo from  '../src/Images/NOMR_logo_small.png'
+import menubar from "@/app/src/Images/menubar.png"
 
 export default function Navbar( { disappear } ) {
   
   const [navOpen, setNavOpen] = useState(false);
   const [aboutOpen, setAboutOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
+  
   useEffect(() => {
     const handleScroll = () => {
       setScrollY(window.scrollY);
