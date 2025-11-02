@@ -10,8 +10,8 @@ export function Carousel({ items, start_index }) {
 
     return(
     <>
-      {items && <div className="static justify-center flex flex-row mx-auto">
-        {items.length > 1 && <button onClick={e => {setIndex((carouselIndex + items.length - 1) % items.length)}} className=" h-24 my-auto text-6xl bg-secondary-50 border border-secondary-500 shadow-lg hover:bg-secondary-600 hover:text-primary-50 rounded-md p-4 duration-300 z-10">&lt;</button>}
+      {items && <div className="relative justify-center content-center flex flex-row mx-auto">
+        {items.length > 1 && <button onClick={e => {setIndex((carouselIndex + items.length - 1) % items.length)}} className=" h-24 absolute mr-[60vw] top-[calc(50%-3.5rem)] text-6xl bg-secondary-50 border border-secondary-500 shadow-lg hover:bg-secondary-600 hover:text-primary-50 rounded-md p-4 duration-300 z-10">&lt;</button>}
         {items.map(item => (
           <div key={item.id} className={`text-center shrink duration-300 flex flex-col ${(carouselIndex == item.id) ? `opacity-100 relative`: `opacity-25 absolute`}`} style={{ transform : `translateX(${(item.id - carouselIndex) * 1000}px)` }}>
           { item.type == "photo" && 
@@ -34,8 +34,7 @@ export function Carousel({ items, start_index }) {
           <p className="p-2 text-primary-600 italic">{`${item.alt}`}</p>
         </div>
         ))}
-        <div className="h-[70vh]"></div>
-          {items.length > 1 && <button onClick={e => {setIndex((carouselIndex + 1) % items.length)}}  className="h-24 text-6xl bg-secondary-50 border my-auto border-secondary-500 shadow-lg hover:bg-secondary-600 rounded-md hover:text-primary-50 px-4 duration-300 z-10">&gt;</button> }
+          {items.length > 1 && <button onClick={e => {setIndex((carouselIndex + 1) % items.length)}}  className="h-24 text-6xl bg-secondary-50 ml-[60vw] top-[calc(50%-3.5rem)] absolute border border-secondary-500 shadow-lg hover:bg-secondary-600 rounded-md hover:text-primary-50 px-4 duration-300 z-10">&gt;</button> }
       </div>}
     </>)
 }

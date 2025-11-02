@@ -12,21 +12,21 @@ export default function Footer() {
             <div className='flex flex-col w-1/3'>
               <p className="font-bold text-secondary-700 mb-4" href="/">NOMR</p>
               <BasicLink href="/">Home</BasicLink>
-              <BasicLink href="/">Contact Us</BasicLink>
-              <ExternalLink href="/">Github</ExternalLink>
+              <BasicLink href="/about/contact">Contact Us</BasicLink>
+              <ExternalLink href="https://github.com/Novel-Observations-in-Mixed-Reality/NOMR">Github</ExternalLink>
             </div>
             <div className='flex flex-col w-1/3'>
               <p className="font-bold text-secondary-700 mb-4" href="/">ABOUT</p>
-              <BasicLink href="/">FAQ</BasicLink>
-              <BasicLink href="/">Mission Statement</BasicLink>
-              <BasicLink href="/">Affiliates</BasicLink>
-              <BasicLink href="/">Alumni</BasicLink>
+              <BasicLink href="/faq">FAQ</BasicLink>
+              <BasicLink href="/about">Mission Statement</BasicLink>
+              <BasicLink href="/about/affiliates">Affiliates</BasicLink>
+              <BasicLink href="/about/alum">Alumni</BasicLink>
             </div>
             <div className='flex flex-col w-1/3'>
               <p className="font-bold text-secondary-700 mb-4" href="/">STUDENTS</p>
-              <BasicLink href="/">Join</BasicLink>
-              <BasicLink href="/">Lab Setup</BasicLink>
-              <BasicLink href="/">Simulations</BasicLink>
+              <BasicLink href="/join">Join</BasicLink>
+              <BasicLink href="/about/lab">Lab Setup</BasicLink>
+              <BasicLink href="/sim">Simulations</BasicLink>
             </div>
           </div>
           
