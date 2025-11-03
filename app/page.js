@@ -114,7 +114,7 @@ export default function Home() {
           placeholder="blur"
           />
         </div>
-        <div className="flex flex-col space-y-6 text-left my-8 place-contents-center mx-8" data-aos="fade-up">
+        <div className="flex flex-col space-y-6 text-left my-8 place-contents-center" data-aos="fade-up">
           <p>NOMR (Novel Observations in Mixed Reality) is an augmented reality application used in the UW Introductory Physics Lab curriculum.</p>
           <p>In NOMR, students are presented with fictitious particles and challenged to develop a mathematical model explaining their interactions.</p>
           <p>Students work together, typically in teams of 4, to gather data and build an understanding of how these particles interact.  The only correct answers are the ones the students can make the best case for, based on the data they collect.</p>
