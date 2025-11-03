@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Image from 'next/image'
 import NavbarItem from "./NavbarItem";
@@ -78,16 +78,16 @@ export default function Navbar( { disappear } ) {
     <div className={`text-xl text-primary-50 fixed top-0 pt-16 flex flex-col text-right bg-secondary-700/50 ${navOpen ? `right-0` : `-right-1/2`} backdrop-blur-xl duration-300 h-[100vh] w-1/2 z-20`}>
           <button className="duration-300 text-right hover:bg-secondary-200/50 py-2 px-4" onClick={() => setAboutOpen(!aboutOpen)}>About &#9660;</button>
           {aboutOpen && <div className="bg-secondary-950/50 flex flex-col">
-          <Link className="duration-300 hover:bg-secondary-200/50 py-2 px-4" href="/about">Mission Statement</Link>
-          <Link className="duration-300 hover:bg-secondary-200/50 py-2 px-4" href="/about/lab">Lab Setup</Link>
-          <Link className="duration-300 hover:bg-secondary-200/50 py-2 px-4" href="/about/affiliates">Affiliates</Link>
-          <Link className="duration-300 hover:bg-secondary-200/50 py-2 px-4" href="/about/alum">Alumni</Link>
-          <Link className="duration-300 hover:bg-secondary-200/50 py-2 px-4" href="/about/contact">Contact Us</Link>
+          <Link onMouseUp={() => setNavOpen(false)} className="duration-300 hover:bg-secondary-200/50 py-2 px-4" href="/about">Mission Statement</Link>
+          <Link onMouseUp={() => setNavOpen(false)} className="duration-300 hover:bg-secondary-200/50 py-2 px-4" href="/about/lab">Lab Setup</Link>
+          <Link onMouseUp={() => setNavOpen(false)} className="duration-300 hover:bg-secondary-200/50 py-2 px-4" href="/about/affiliates">Affiliates</Link>
+          <Link onMouseUp={() => setNavOpen(false)} className="duration-300 hover:bg-secondary-200/50 py-2 px-4" href="/about/alum">Alumni</Link>
+          <Link onMouseUp={() => setNavOpen(false)} className="duration-300 hover:bg-secondary-200/50 py-2 px-4" href="/about/contact">Contact Us</Link>
           </div>
           }
-          <Link className="duration-300 hover:bg-secondary-200/50 py-2 px-4" href="/sim">Simulations</Link>
-          <Link className="duration-300 hover:bg-secondary-200/50 py-2 px-4" href="/join">Join</Link>
-          <Link className="duration-300 hover:bg-secondary-200/50 py-2 px-4" href="/faq">FAQ</Link>
+          <Link onMouseUp={() => setNavOpen(false)} className="duration-300 hover:bg-secondary-200/50 py-2 px-4" href="/sim">Simulations</Link>
+          <Link onMouseUp={() => setNavOpen(false)} className="duration-300 hover:bg-secondary-200/50 py-2 px-4" href="/join">Join</Link>
+          <Link onMouseUp={() => setNavOpen(false)} className="duration-300 hover:bg-secondary-200/50 py-2 px-4" href="/faq">FAQ</Link>
           <button className="duration-300 hover:bg-secondary-200/50 py-2 px-4" onClick={() => setNavOpen(false)}>&#215;</button>
         </div>
     </>
