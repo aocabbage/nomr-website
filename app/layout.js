@@ -27,9 +27,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="overflow-x-hidden">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${lato.className} overflow-x-hidden antialiased bg-primary-50 text-primary-900`}
+        className={`${geistSans.variable} ${geistMono.variable} ${lato.className} relative overflow-x-hidden antialiased bg-primary-50 text-primary-900`}
       >
         <Navbar/>
         {children}
