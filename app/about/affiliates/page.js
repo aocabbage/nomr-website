@@ -26,7 +26,7 @@ export default function Home() {
             alt="PEG Logo"
             className="mb-4"
           />
-          <Link href="https://phys.washington.edu/fields/physics-education" className="text-lg font-bold hover:underline text-link-500">UW Physics Education Group (PEG) &#128279;</Link>
+          <Link href="https://phys.washington.edu/fields/physics-education" className="text-base sm:text-lg font-bold hover:underline text-link-500">UW Physics Education Group (PEG) &#128279;</Link>
         </div>
         <div className="lg:!my-auto rounded-lg shadow-lg p-8 border border-secondary-600">
           <Image
@@ -36,7 +36,7 @@ export default function Home() {
             alt="PEG Logo"
             className="mb-4"
           />
-          <Link href="https://phys.washington.edu/" className="text-lg font-bold hover:underline text-link-500">Department of Physics Introductory Labs &#128279;</Link>
+          <Link href="https://phys.washington.edu/" className="text-base sm:text-lg font-bold hover:underline text-link-500">Department of Physics Introductory Labs &#128279;</Link>
         </div>
         <div className="lg:!my-auto rounded-lg shadow-lg p-8 border border-secondary-600">
           <Image
@@ -46,12 +46,12 @@ export default function Home() {
             alt="HCDE Logo"
             className="mb-4"
           />
-          <Link href="https://www.hcde.washington.edu/" className="text-lg font-bold hover:underline text-link-500">Human Centered Design and Engineering &#128279;</Link>
+          <Link href="https://www.hcde.washington.edu/" className="text-base sm:text-lg font-bold hover:underline text-link-500">Human Centered Design and Engineering &#128279;</Link>
         </div>
       </div>
       <SectionHeader style={`!my-8`}>Financial Supporters</SectionHeader>
       <div className="flex flex-col lg:flex-row text-center lg:space-x-12">
-        <div className="my-auto rounded-lg min-w-72 shadow-lg p-8 border border-secondary-600">
+        <div className="my-auto rounded-lg shadow-lg p-8 border border-secondary-600">
           <Image
             src={stf_logo}
             width={500}

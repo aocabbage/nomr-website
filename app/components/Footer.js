@@ -7,9 +7,9 @@ import nomr_logo from  '../src/Images/NOMR_logo_large_black.png'
 export default function Footer() {
     return (
       <footer className="border-t p-4 bg-primary-100 text-primary-900 border-primary-200">
-        <div className='mx-[10vw] lg:mx-[25vw] my-4 space-y-4'>
+        <div className='mx-[10vw] text-sm sm:text-base lg:mx-[25vw] my-4 space-y-4'>
           <div className='flex flex-row place-content-between'>
-            <div className='flex flex-col w-1/3'>
+            <div className='flex flex-col  w-1/3'>
               <p className="font-bold text-secondary-700 mb-4" href="/">NOMR</p>
               <BasicLink href="/">Home</BasicLink>
               <BasicLink href="/about/contact">Contact Us</BasicLink>
