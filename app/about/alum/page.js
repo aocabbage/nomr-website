@@ -26,7 +26,6 @@ export default function Home() {
                 </div>
                 <div>
                     <p className="italic text-primary-400">Contact At</p>
-                    <p>(562) 285-2182</p>
                     <ExternalLink href="mailto:alexis.mendoza.tech@gmail.com">alexis.mendoza.tech@gmail.com</ExternalLink>
                 </div>
             </Profile>
