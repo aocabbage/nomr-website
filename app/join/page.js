@@ -11,49 +11,7 @@ export default function Home() {
             id: 0,
             name : "Developer",
             open : true,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis erat velit, fringilla porttitor rutrum sed, pellentesque sit amet lorem. Suspendisse gravida massa sed augue facilisis, hendrerit lacinia tortor pulvinar. Morbi consectetur porttitor eleifend. Nullam risus est, blandit nec auctor at, sagittis vel urna. Cras euismod dapibus auctor. Vivamus dolor tellus, accumsan ut sapien et, imperdiet dapibus ante. Etiam non erat vitae lacus interdum tincidunt sit amet vel quam. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-            app_link : "https://www.google.com"
-        },
-        {
-            id: 1,
-            name : "Artist",
-            open : false,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis erat velit, fringilla porttitor rutrum sed, pellentesque sit amet lorem. Suspendisse gravida massa sed augue facilisis, hendrerit lacinia tortor pulvinar. Morbi consectetur porttitor eleifend. Nullam risus est, blandit nec auctor at, sagittis vel urna. Cras euismod dapibus auctor. Vivamus dolor tellus, accumsan ut sapien et, imperdiet dapibus ante. Etiam non erat vitae lacus interdum tincidunt sit amet vel quam. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-            app_link : "https://www.google.com"
-        },
-        {
-            id: 2,
-            name : "Creative Lead",
-            open : false,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis erat velit, fringilla porttitor rutrum sed, pellentesque sit amet lorem. Suspendisse gravida massa sed augue facilisis, hendrerit lacinia tortor pulvinar. Morbi consectetur porttitor eleifend. Nullam risus est, blandit nec auctor at, sagittis vel urna. Cras euismod dapibus auctor. Vivamus dolor tellus, accumsan ut sapien et, imperdiet dapibus ante. Etiam non erat vitae lacus interdum tincidunt sit amet vel quam. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-            app_link : "https://www.google.com"
-        },
-        {
-            id: 3,
-            name : "Design Lead",
-            open : false,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis erat velit, fringilla porttitor rutrum sed, pellentesque sit amet lorem. Suspendisse gravida massa sed augue facilisis, hendrerit lacinia tortor pulvinar. Morbi consectetur porttitor eleifend. Nullam risus est, blandit nec auctor at, sagittis vel urna. Cras euismod dapibus auctor. Vivamus dolor tellus, accumsan ut sapien et, imperdiet dapibus ante. Etiam non erat vitae lacus interdum tincidunt sit amet vel quam. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-            app_link : "https://www.google.com"
-        },
-        {
-            id: 4,
-            name : "Graphics Engineer",
-            open : false,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis erat velit, fringilla porttitor rutrum sed, pellentesque sit amet lorem. Suspendisse gravida massa sed augue facilisis, hendrerit lacinia tortor pulvinar. Morbi consectetur porttitor eleifend. Nullam risus est, blandit nec auctor at, sagittis vel urna. Cras euismod dapibus auctor. Vivamus dolor tellus, accumsan ut sapien et, imperdiet dapibus ante. Etiam non erat vitae lacus interdum tincidunt sit amet vel quam. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-            app_link : "https://www.google.com"
-        },
-        {
-            id: 5,
-            name : "Development and Operations",
-            open : false,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis erat velit, fringilla porttitor rutrum sed, pellentesque sit amet lorem. Suspendisse gravida massa sed augue facilisis, hendrerit lacinia tortor pulvinar. Morbi consectetur porttitor eleifend. Nullam risus est, blandit nec auctor at, sagittis vel urna. Cras euismod dapibus auctor. Vivamus dolor tellus, accumsan ut sapien et, imperdiet dapibus ante. Etiam non erat vitae lacus interdum tincidunt sit amet vel quam. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-            app_link : "https://www.google.com"
-        },
-        {
-            id: 6,
-            name : "Senior Developer",
-            open : false,
-            description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis erat velit, fringilla porttitor rutrum sed, pellentesque sit amet lorem. Suspendisse gravida massa sed augue facilisis, hendrerit lacinia tortor pulvinar. Morbi consectetur porttitor eleifend. Nullam risus est, blandit nec auctor at, sagittis vel urna. Cras euismod dapibus auctor. Vivamus dolor tellus, accumsan ut sapien et, imperdiet dapibus ante. Etiam non erat vitae lacus interdum tincidunt sit amet vel quam. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+            description : "The duties for this appointment include working as part of the NOMR Student Development Group and the specific tasks are: writing and implementing efficient code; testing and evaluating new code; designing and implementing new lab scenarios; identifying areas for modification in existing programs and subsequently developing these modifications; and working closely with other developers and UX designers.",
             app_link : "https://www.google.com"
         }
     ]
